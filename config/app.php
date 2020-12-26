@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // 2020-12-21: https://github.com/torrix/laravel-uikit
+        App\Providers\FortifyServiceProvider::class,
+
     ],
 
     /*

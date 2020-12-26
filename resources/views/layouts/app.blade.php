@@ -11,6 +11,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @stack('head')
 </head>
 <body>
 <div id="app">
@@ -120,5 +121,6 @@
     </footer>
 </div>
 <script src="{{ asset('js/app.js') }}" defer></script>
+@stack('scripts')
 </body>
 </html>

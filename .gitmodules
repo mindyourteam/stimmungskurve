@@ -1,0 +1,6 @@
+[submodule "packages/knowfox/crud"]
+	path = packages/knowfox/crud
+	url = git@github.com:knowfox/crud.git
+[submodule "packages/mindyourteam/barometer"]
+	path = packages/mindyourteam/barometer
+	url = git@github.com:mindyourteam/barometer.git
