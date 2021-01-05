@@ -32,6 +32,7 @@
     cd {{ $root_dir }};
     git clone --recursive {{ $repo }} {{ $release_dir }};
     cd {{ $release_dir }};
+    git submodule update --init --remote --recursive
 
     rm -rf storage
     rm -rf bootstrap/cache
