@@ -21,37 +21,6 @@
                 <div class="uk-navbar" data-uk-navbar>
                     <div class="uk-navbar-left">
                         <a class="uk-navbar-item uk-logo" href="/">{{ config('app.name', 'Laravel') }}</a>
-
-                        <ul class="uk-navbar-nav">
-                            <li>
-                                <a href="{{ route('demo') }}">Demo</a>
-                            </li>
-                            <li>
-                                <a href="#">Useful Links</a>
-                                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
-                                    <div class="uk-navbar-dropdown-grid uk-child-width-1-3" data-uk-grid>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-nav-header">Laravel</li>
-                                                @include('laravel-uikit::demo.laravel')
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-nav-header">UIkit</li>
-                                                @include('laravel-uikit::demo.uikit')
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-nav-header">Vue.js</li>
-                                                @include('laravel-uikit::demo.vuejs')
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav">
@@ -104,17 +73,14 @@
         <div class="uk-container">
             <div class="uk-grid uk-text-center uk-text-left@s uk-flex-middle" data-uk-grid>
                 <div class="uk-text-small uk-text-muted uk-width-1-3@s">
-                    Lovingly cobbled together by
-                    <a target="_blank" href="https://torrix.uk/">Matt Fletcher at Torrix</a>
+                    Lovingly made by
+                    <a target="_blank" href="https://schettler.net/olav/">Dr. Olav Schettler</a>
                 </div>
                 <div class="uk-text-center uk-width-1-3@s">
-                    <a target="_blank" href="https://twitter.com/mattfletcher"
+                    <a target="_blank" href="https://twitter.com/stimmungskurve"
                        class="uk-icon-button uk-margin-small-right" data-uk-icon="twitter"></a>
-                    <a target="_blank" href="https://github.com/Torrix"
+                    <a target="_blank" href="https://github.com/mindyourteam/stimmungskurve"
                        class="uk-icon-button" data-uk-icon="github"></a>
-                </div>
-                <div class="uk-text-small uk-text-muted uk-text-center uk-text-right@s uk-width-1-3@s">
-                    Built with <a target="_blank" href="http://getuikit.com"><span data-uk-icon="uikit"></span></a>
                 </div>
             </div>
         </div>
