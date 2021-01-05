@@ -73,13 +73,14 @@
         <div class="uk-container">
             <div class="uk-grid uk-text-center uk-text-left@s uk-flex-middle" data-uk-grid>
                 <div class="uk-text-small uk-text-muted uk-width-1-3@s">
-                    Lovingly made by
-                    <a target="_blank" href="https://schettler.net/olav/">Dr. Olav Schettler</a>
+                    Gebaut von
+                    <a target="_blank" href="https://schettler.net/olav/">Dr. Olav Schettler</a>,
+                    inspiriert von <a rel="nofollow" target="_blank" href="https://www.zeit.de/gesellschaft/2017-03/stimmung-wie-geht-es-uns">Zeit Online</a>
                 </div>
                 <div class="uk-text-center uk-width-1-3@s">
-                    <a target="_blank" href="https://twitter.com/stimmungskurve"
+                    <a target="_blank" rel="nofollow" href="https://twitter.com/stimmungskurve"
                        class="uk-icon-button uk-margin-small-right" data-uk-icon="twitter"></a>
-                    <a target="_blank" href="https://github.com/mindyourteam/stimmungskurve"
+                    <a target="_blank" rel="nofollow" href="https://github.com/mindyourteam/stimmungskurve"
                        class="uk-icon-button" data-uk-icon="github"></a>
                 </div>
             </div>
