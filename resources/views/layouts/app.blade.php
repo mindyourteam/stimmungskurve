@@ -22,6 +22,7 @@
                     <div class="uk-navbar-left">
                         <a class="uk-navbar-item uk-logo" href="/">{{ config('app.name', 'Laravel') }}</a>
                     </div>
+                    {{--
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav">
                             <!-- Authentication Links -->
@@ -60,6 +61,7 @@
                             @endguest
                         </ul>
                     </div>
+                    --}}
                 </div>
             </div>
         </nav>
