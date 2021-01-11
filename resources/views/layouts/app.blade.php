@@ -24,6 +24,9 @@
                     </div>
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav">
+                            <li>
+                                <a href="https://github.com/mindyourteam/stimmungskurve/wiki">{{ __('About') }}</a>
+                            </li>
                             <!-- Authentication Links -->
                             @guest
                                 @if (Route::has('login'))
