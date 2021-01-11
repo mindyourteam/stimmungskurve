@@ -22,7 +22,6 @@
                     <div class="uk-navbar-left">
                         <a class="uk-navbar-item uk-logo" href="/">{{ config('app.name', 'Laravel') }}</a>
                     </div>
-                    {{--
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav">
                             <!-- Authentication Links -->
@@ -45,6 +44,9 @@
                                     <div class="uk-navbar-dropdown">
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
                                             <li>
+                                                <a href="{{ route('tribe.index') }}">Gruppen</a>
+                                            </li>
+                                            <li>
                                                 <a href="{{ route('logout') }}"
                                                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                                     {{ __('Log Out') }}
@@ -61,7 +63,6 @@
                             @endguest
                         </ul>
                     </div>
-                    --}}
                 </div>
             </div>
         </nav>

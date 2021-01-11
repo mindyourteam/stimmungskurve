@@ -1728,10 +1728,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/mindyourteam/barometer",
-                "reference": "1606ad9db53c3f05edaa092fbdd28cbca28e2d0d"
+                "reference": "fe5f79b364a19e5ae9c5cbd306f61e9efee155c8"
             },
             "require": {
                 "knowfox/crud": "dev-master",
+                "spatie/laravel-sluggable": "^2.6",
                 "spatie/laravel-tags": "^3.0"
             },
             "type": "library",
@@ -2918,6 +2919,66 @@
                 }
             ],
             "time": "2020-11-25T12:55:36+00:00"
+        },
+        {
+            "name": "spatie/laravel-sluggable",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-sluggable.git",
+                "reference": "49c491cc28a6ed5cd23936c8d59ffc24f8319762"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-sluggable/zipball/49c491cc28a6ed5cd23936c8d59ffc24f8319762",
+                "reference": "49c491cc28a6ed5cd23936c8d59ffc24f8319762",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^7.0|^8.0",
+                "illuminate/support": "^7.0.5|^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "orchestra/testbench": "^5.0|^6.0",
+                "spatie/laravel-translatable": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Sluggable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate slugs when saving Eloquent models",
+            "homepage": "https://github.com/spatie/laravel-sluggable",
+            "keywords": [
+                "laravel-sluggable",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-sluggable/issues",
+                "source": "https://github.com/spatie/laravel-sluggable/tree/2.6.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-28T12:03:25+00:00"
         },
         {
             "name": "spatie/laravel-tags",
