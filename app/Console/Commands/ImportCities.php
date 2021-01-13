@@ -7,7 +7,7 @@ use Mindyourteam\Barometer\Models\Tribe;
 
 use Spatie\Tags\Tag;
 
-class ImportAdjectives extends Command
+class ImportCities extends Command
 {
     /**
      * The name and signature of the console command.
