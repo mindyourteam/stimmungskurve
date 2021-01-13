@@ -48,7 +48,7 @@ class ImportCities extends Command
             if ($line === false) {
                 continue;
             }
-            $cities[$line[2]] = $line[1];
+            $cities[$line[2]] = trim($line[1]);
         }
         fclose($f);
 
