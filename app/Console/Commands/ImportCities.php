@@ -53,7 +53,7 @@ class ImportCities extends Command
         fclose($f);
 
         foreach ($cities as $slug => $city) {
-            Tribe::firstOrCreate(['slug' => $slug], ['name' => $city, 'owner_id' => 1]);
+            Tribe::firstOrCreate(['slug' => $slug], ['name' => $city, 'owner_id' => 1, 'is_city' => true]);
             $this->info(' - ' . $city . ' -> ' . $slug);
         }
 

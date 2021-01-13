@@ -30,6 +30,9 @@
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav">
                             <li>
+                                <a href="{{ route('cities') }}">{{ __('Cities') }}</a>
+                            </li>
+                            <li>
                                 <a href="https://github.com/mindyourteam/stimmungskurve/wiki">{{ __('About') }}</a>
                             </li>
                             <!-- Authentication Links -->
